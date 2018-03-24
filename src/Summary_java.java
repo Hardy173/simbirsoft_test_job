@@ -20,6 +20,11 @@ public class Summary_java {
             String skype = property.getProperty("skype");
             String avatar = property.getProperty("avatar");
             String target = property.getProperty("target");
+            String experience = property.getProperty("experience");
+            String education = property.getProperty("education");
+            String plus_education = property.getProperty("plus_education");
+            String skils = property.getProperty("skils");
+            String prev = property.getProperty("prev");
 
 
 
@@ -54,15 +59,22 @@ public class Summary_java {
                     "\t<div class=\"clearfix\"><b>Опыт работы:</b></div>\n" +
                     "\t<div class=\"clearfix\">\n" +
                     "\t\t<ol>\n" +
-                    "\t\t\t<li>Нет опыта работы</li>\n" +
+                    "\t\t\t" + experience + "\n" +
                     "\t\t</ol>\n" +
                     "\t</div>\t\n" +
                     "\t<div class=\"clearfix\"><b>Образование:</b></div>\n" +
-                    "\t<div class=\"clearfix\">УЛЬЯНОВСКИЙ ГОСУДАРСТВЕННЫЙ ТЕХНИЧЕСКИЙ УНИВЕРСИТЕТ. Факультет информационных систем и технологий. Специальность вычислительная техника. Студент 2 курса.</div> \n" +
+                    "\t<div class=\"clearfix\">" + education + "</div> \n" +
                     "\t<div class=\"clearfix\"><b>Дополнительное образование и курсы:</b></div> \n" +
                     "\t<div class=\"clearfix\"><ol>\n" +
-                    "\t\t\t<li>Нет доп.образования</li>\n" +
+                    "\t\t\t" + plus_education + "\n" +
                     "\t\t</ol></div>\n" +
+                    "<div class=\"clearfix\"><b>Навыки:</b></div> \t\n" +
+                    "\t<div class=\"clearfix\"><ol>\n" +
+                    "\t\t\t" + skils + "\n" +
+                    "\t\t</ol>\n" +
+                    "\t</div>\n" +
+                    "\t<div class=\"clearfix\"><b>Пример моего кода:</b></div> \t\n" +
+                    "\t<div class=\"clearfix\"><a href=\"+ prev + \">GitHub</a></div>"+
                     "  </font></div>\n" +
                     "</div>\n" +
                     " \n" +
